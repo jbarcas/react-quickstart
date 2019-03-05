@@ -3,7 +3,7 @@
 The idea of this project is to make things easier at creating a new TypeScript React/Node.js project. It is not a bootstrap starter, it is a funll functional mini-project that you can use as starting point. It is complemented with its corresponding Node.js api, which will be included in another git repository. The main technologies used are the following:
 
 - [TypeScript][typescript] programming language.
-- [React][react] framework for building the user interface.
+- [React][react] framework for building the Single Page Application.
 - [Redux][redux] library to manage the state of the React application.
 - [Node.js][nodejs] as runtime environment.
 - [Sequelize][sequelize] object-relational mapping.
@@ -11,7 +11,6 @@ The idea of this project is to make things easier at creating a new TypeScript R
 - [JWT][jwt] for athentication and authorization.
 - [Jest][jest] and [Mocha][mocha] test frameworks.
 - [Travis CI][travis] as Continuous Integration tool.
-
 
 ## Getting Started
 
@@ -22,7 +21,7 @@ To get started simply clone the `react-quickstart` repository and install the de
 You need git to clone the `react-quickstart` repository. You can get git from
 [http://git-scm.com/](http://git-scm.com/).
 
-We also use a number of Node.js tools to initialize and test `react-quickstart`. You must have Node.js and its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
+We also use a number of Node.js tools to initialize and test `react-quickstart`. You must have Node.js and its package manager (npm) installed. You can get them from [http://nodejs.org/](http://nodejs.org/).
 
 ### Cloning `react-quickstart` repository
 
@@ -59,11 +58,9 @@ npm run start
 
 The system will automatically open your default web browser on page `http://localhost:3000/`.
 
-
 ## Testing
 
 // TODO: write about unit and end-to-end testing.
-
 
 ## Continuous Integration
 

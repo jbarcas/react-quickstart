@@ -1,10 +1,20 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier", "tslint-config-airbnb"],
-  "linterOptions": {
-    "exclude": [
-      "config/**/*.js",
-      "node_modules/**/*.ts",
-      "coverage/lcov-report/*.js"
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
     ]
-  }
+  },
+  "rulesDirectory": []
 }
