@@ -1,9 +1,20 @@
 import React from "react";
+import LoginForm from "../forms/LoginForm";
+import { ILoginData } from "../forms/LoginData";
 
-const loginPage = () => (
-  <div>
-    <h1>Login Page</h1>
-  </div>
-);
+class LoginPage extends React.Component {
+  public submit = (data: ILoginData): void => {
+    console.log(data);
+  };
 
-export default loginPage;
+  public render() {
+    return (
+      <div>
+        <h1>Login Page</h1>
+        <LoginForm submit={this.submit} />
+      </div>
+    );
+  }
+}
+
+export default LoginPage;

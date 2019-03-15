@@ -8,13 +8,16 @@
       {
         "singleline": "never",
         "multiline": {
-          "objects": "always",
+          "objects": "never",
           "arrays": "always",
           "functions": "never",
           "typeLiterals": "ignore"
         }
       }
-    ]
+    ],
+    "ordered-imports": false,
+    "semicolon": false,
+    "member-ordering": false
   },
   "rulesDirectory": []
 }
